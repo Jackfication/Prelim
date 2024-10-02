@@ -1,0 +1,77 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ECFFE6; /* Matching the main site's background color */
+    padding-bottom: 50px;
+}
+
+/* Auth Container */
+.auth-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.auth-form {
+    background-color: #fefefe; /* Light background for the form */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px; /* Adjusted container width */
+}
+
+/* Heading Styles */
+.auth-form h2 {
+    color: #45613c; /* Match the header color from the main site */
+    margin-bottom: 20px;
+}
+
+/* Input Styles */
+.auth-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Button Styles */
+.auth-btn {
+    background-color: #45613c; /* Primary button color from the main site */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.auth-btn:hover {
+    background-color: #273621; /* Darker shade for hover effect */
+}
+
+/* Links */
+.auth-form a {
+    color: #24351f; /* Link color matching the primary button */
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
